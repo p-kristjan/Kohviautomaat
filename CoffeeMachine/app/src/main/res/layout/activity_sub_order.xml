@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubOrderActivity">
+
+    <TextView
+        android:id="@+id/txtSuborders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/suborders"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddDrink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onAddDrink"
+        android:paddingLeft="20dp"
+        android:paddingTop="6dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="6dp"
+        android:text="@string/add_drink"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnRemoveDrink"
+        app:layout_constraintEnd_toStartOf="@+id/btnRemoveDrink"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRemoveDrink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onRemoveDrink"
+        android:paddingLeft="20dp"
+        android:paddingTop="6dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="6dp"
+        android:text="@string/remove_drink"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAddDrink" />
+
+    <Button
+        android:id="@+id/btnRemoveDrink2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckout"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/checkout"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtPaymentType"
+        app:layout_constraintEnd_toEndOf="@+id/btnRemoveDrink"
+        app:layout_constraintStart_toStartOf="@+id/btnRemoveDrink" />
+
+    <ListView
+        android:id="@+id/lvDrinks"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTotalPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSuborders" />
+
+    <TextView
+        android:id="@+id/txtTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/total_suborders"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddDrink"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Total 5.3€" />
+
+    <TextView
+        android:id="@+id/txtPaymentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/payment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="1sp"
+        android:layout_marginBottom="16dp"
+        android:background="#202020"
+        app:layout_constraintBottom_toTopOf="@+id/btnRemoveDrink2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerPaymentType"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRemoveDrink2"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddDrink"
+        app:layout_constraintStart_toEndOf="@+id/txtPaymentType"
+        app:layout_constraintTop_toTopOf="@+id/btnRemoveDrink2"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

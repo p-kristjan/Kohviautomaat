@@ -1,0 +1,46 @@
+<resources>
+    <string name="API_URL">http://192.168.56.1:5000/api/</string>
+
+    <string name="app_name">Coffee Machine</string>
+    <string name="txt_log_in">Log in to your account</string>
+    <string name="btnLogIn">login</string>
+    <string name="btnRegister">register</string>
+    <string name="et_password_hint">Enter password</string>
+    <string name="et_email_hint">Enter email</string>
+    <string name="et_emailmandatory_hint">Enter email</string>
+    <string name="et_passwordmandatory_hint">Enter password</string>
+    <string name="et_repeatpasswordmandatory_hint">Confirm password</string>
+    <string name="txt_register">Register an account</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Log in</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="fetch_error">Error fetching API</string>
+    <string name="acp">Admin Control Panel</string>
+    <string name="title_admin">Admin Control Panel</string>
+    <string name="btn_new_order">new order</string>
+    <string name="suborders">Suborders:</string>
+    <string name="orders">Orders:</string>
+    <string name="remove_drink">remove drink</string>
+    <string name="add_drink">add drink</string>
+    <string name="new_order">New Order</string>
+    <string name="new_drink">new drink</string>
+    <string name="total_price">Total: %s€</string>
+    <string name="payment">Payment:</string>
+    <string name="checkout">checkout</string>
+    <string name="label_add_drink">Add Drink</string>
+    <string name="description">Description:</string>
+    <string name="size">Size:</string>
+    <string name="amount">Amount:</string>
+    <string name="drink">Drink:</string>
+    <string name="name">Name:</string>
+    <string name="price">Price:</string>
+    <string name="txt_price">Price: %s€</string>
+    <string name="label_new_drink">New Drink</string>
+    <string name="price_of_drink">Total Price: %.2f€</string>
+    <string name="available">(Available: %d liters)</string>
+    <string name="pre_zero">0</string>
+    <string name="total_volume">Total volume: %d liters</string>
+    <string name="unit_price">Unit Price: %.2f€</string>
+    <string name="price_for_list_item">Price: %.2f€</string>
+    <string name="total_suborders">Total: %.2f€</string>
+</resources>

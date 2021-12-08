@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_admin.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_drink.xml" value="0.5" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_login.xml" value="0.5322916666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_main.xml" value="0.3875" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_new_drink.xml" value="0.5322916666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_register.xml" value="0.5322916666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/activity_sub_order.xml" value="0.5" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/drink_list_item.xml" value="0.5322916666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/list_item.xml" value="0.5322916666666667" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/layout/suborder_list.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/Hunter/Desktop/CoffeeMachine/app/src/main/res/menu/main_menu.xml" value="0.39166666666666666" />
+        <entry key="..\:/Users/opilane/Desktop/CoffeeMachine/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/activity_admin.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/activity_drink.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/activity_main.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/activity_sub_order.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/drink_list_item.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/order_list.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/password_prompt.xml" value="0.33" />
+        <entry key="..\:/Users/opilane/Source/Repos/CoffeeMachine/app/src/main/res/layout/suborder_list.xml" value="0.35989583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
